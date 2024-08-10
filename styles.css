@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    width: 1584px;
+    height: 396px;
+    background-image: url('images/background_images.jpeg');
+    /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+}
+
+.html-logo {
+    top: 20px;
+    right: 180px;
+}
+
+.css-logo {
+    top: 20px;
+    right: 50px;
+}
+
+.javascript-logo {
+    margin-top: 20px;
+    right: 100px;
+}
+
+.python-logo {
+    bottom: 20px;
+    right: 160px;
+}
+
+.sql-logo {
+    bottom: 20px;
+    right: 50px;
+}
+
+.logo img {
+    height: 80px;
+    /* Adjust size as needed */
+    width: auto;
+}
+
+.info {
+    text-align: center;
+    z-index: 1;
+    /* Ensure the text is above the logos */
+}
+
+.info h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.info p {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+.info a {
+    color: white;
+    /* Change to match your brand color */
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
